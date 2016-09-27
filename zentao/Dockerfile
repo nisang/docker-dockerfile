@@ -10,4 +10,4 @@ RUN apt-get install -y mysql-client-5.6 mysql-common-5.6 mysql-client-core-5.6  
 WORKDIR /opt
 RUN wget -q -O zentao.tar.gz http://dl.cnezsoft.com/zentao/8.2.6/ZenTaoPMS.8.2.6.zbox_64.tar.gz
 RUN tar -zxvf zentao.tar.gz
-EXPOSE 80
+EXPOSE 80 3306
